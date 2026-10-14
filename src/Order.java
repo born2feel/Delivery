@@ -37,7 +37,7 @@ public class Order {
         }
         this.courier = courier;
         courier.setAvailable(false);
-        System.out.println("Курьер " + courier.getName() + " успешно нащначен на заказ #" + id);
+        System.out.println("Курьер " + courier.getName() + " успешно назначен на заказ #" + id);
     }
 
     public double calculateTotalCost() {
